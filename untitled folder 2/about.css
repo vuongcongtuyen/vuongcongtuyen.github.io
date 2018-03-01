@@ -2,7 +2,20 @@
 	font-size: 20px;
     text-decoration: none;
     margin-left: 60px;
+    position: relative;
 
+}
+#main-menu > a:first-child {
+	padding: 4px;
+	background-color: #ffffff;
+	border-radius: 50%;
+}
+#main-menu > a:first-child > img {
+	max-width: 120px;
+	border-radius: 50%;
+	top: -76px;
+    left: -58px;
+    position: absolute;
 }
 
 .conten {
@@ -14,3 +27,15 @@
 img:hover{
 	color: orange;
 }
+#backtotop{
+	position: fixed;
+	right: 220px;
+	bottom: 30px;
+
+}
+#backtotop > a > img{ 
+	width: 50px;
+ }
+ #backtotop > a > img:hover{
+ 	color: blue;
+ }
