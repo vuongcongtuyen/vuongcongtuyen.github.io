@@ -1,0 +1,16 @@
+#wraper{
+	max-width: 1000px;
+	margin: auto;
+}
+.logo{
+	max-width: 60%;
+}
+.logo-2{
+	    height: 253px;
+}
+a:hover {
+	color: orange;
+}
+a:active{
+	color: orange;
+}
