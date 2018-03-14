@@ -1,0 +1,66 @@
+#wraper{
+  width: 1500px;
+  text-align: center;
+  background-color: black;
+}
+.menu{
+  max-width: 20%;
+  display: inline-block;
+
+  
+}
+.menu a{
+  text-decoration: none;
+  display: block;
+  padding-top: 43px;
+  color:white;
+  font-style: italic;
+  font-size: 20px;
+}
+.logo{
+  max-width: 80%;
+  display: inline-block;
+  margin-left: 81px;
+  position: relative;
+}
+.logo img{
+
+}
+.container img{
+ 
+  margin: 10px;
+  overflow: hidden;
+ 
+}
+.avatar img{
+  position: absolute;
+  top:150px;
+  left: 370px;
+  border-radius: 50%;
+}
+
+.avatar img:hover{
+  color: orange;
+}
+.conten-1 img:hover{
+  opacity: 0.5;
+  transition: 2s;
+}
+.conten-2 img:hover{
+  transform: translate(10px , 10px)
+}
+.conten-3 {
+  position: relative;
+  
+}
+.conten-3 img:hover{
+  transform: scale(1.1)
+}
+.backtotop img{
+  position:fixed;
+  top :600px;
+  left: 1400px;
+}
+.menu a:hover{
+  color: orange;
+}
