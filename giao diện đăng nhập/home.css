@@ -1,0 +1,69 @@
+#wraper{
+    width: 800px;
+    height: 600px;
+    margin: 0px auto;
+}
+.top{
+    width: 100%;
+    height: 10%;
+    border: #ccc solid 1px;
+
+}
+h1.h1-login{
+    font-size: 20px;
+    margin: 20px;
+}
+.container{
+    width: 100%;
+    border:1px #ccc solid;
+    height: 80%;
+}
+.bottom{
+    width: 100%;
+    height: 10%;
+    border: #ccc solid 1px;
+}
+.conten{
+    width: 50%;
+    height: 50%;
+    border: #ccc 1px solid;
+    margin: 0px auto;
+    padding: 20px;
+    margin-top: 90px;
+    position: relative;
+}
+input[type="text"] {
+    width: 250px;
+    height: 20px;
+    padding: 2px;
+    margin: 10px;
+    margin: 20px 54px;
+}
+h1.h1-container {
+    position: absolute;
+    top: -38px;
+    left: 30px;
+    font-size: 23px;
+    font-style: inherit;
+    background-color: white;
+    padding: 7px;
+}
+p {
+    display: inline-block;
+    margin: 67px 50px;
+}
+input.operation{
+    position: absolute;
+    top: 114px;
+    left: -20px;
+    width: 153px;
+    text-align: center;
+}
+input.device{
+    position: absolute;
+    top: 114px;
+    left: 178px;
+    width: 154px;
+    text-align: center;
+
+}

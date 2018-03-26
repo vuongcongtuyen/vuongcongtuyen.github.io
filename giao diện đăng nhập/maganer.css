@@ -1,0 +1,243 @@
+#wraper{
+	width: 1000px;
+	margin: 0px auto;
+
+}
+.tap{
+	width: 100%;
+	height: 45px;
+	border: 2px #040404 solid;
+	background-color: #c5c5c5;
+	position: relative;
+}
+.top{
+	width: 100%;
+	height: 45px;
+	border: 2px #040404 solid;
+	position: relative;
+}
+#container{
+	width: 100%;
+	height: 888px;
+	border: 2px #040404 solid;
+
+}
+.bottom{
+	width: 100%;
+	height: 25px;
+	border: 2px #040404 solid;
+    background: #c5c5c5;
+}
+span.left{
+	position: absolute;
+    top: 14px;
+    left: 12px;
+}
+span.right{
+	position: absolute;
+    top: 14px;
+    left: 35px;
+}
+span.time{
+	position: absolute;
+    top: 14px;
+    left: 60px;
+}
+span.home{
+	position: absolute;
+    top: 14px;
+    left: 81px;
+}
+input.text {
+    position: absolute;
+    top: 14px;
+    left: 112px;
+    width: 756px;
+}
+input.search {
+    position: absolute;
+    top: 14px;
+    left: 891px;
+    width: 93px;
+    border-radius: 12px;
+    position: relative;
+
+}
+svg.svg-inline--fa.fa-search.fa-w-16 {
+    position: absolute;
+    top: 16px;
+    left: 899px;
+    width: 9px;
+}
+.avatar{
+	width: 40px;
+	height: 40px;
+	border: 2px black solid;
+    border-radius: 50%;
+	display: inline-block;
+	margin: 0px 770px;
+}
+p.Maganer{
+	display: inline-block;
+	font-size: 21px;
+    position: absolute;
+    top: -11px;
+    left: 838px
+}
+h1.quanly {
+    font-size: 24px;
+    margin: 0px 387px;
+    padding: 33px 0px 9px;
+}
+button {
+    width: 100px;
+    height: 22px;
+    margin: 12px 47px;
+    font-size: 12px;
+}
+.conten-2{
+	max-width: 90%;
+	height: 743px;
+	border: 2px black solid;
+	margin: 0px auto;
+    position: relative;
+}
+svg.svg-inline--fa.fa-graduation-cap.fa-w-20 {
+    margin: 27px 60px;
+    font-size: 25px;
+}
+h1.kh-html{
+    display: inline;
+    position: absolute;
+    font-size: 24px;
+    top: 10px;
+    left: 107px;
+
+}
+.user {
+    width: 38px;
+    height: 38px;
+    border: 2px black solid;
+    border-radius: 50%;
+    margin: 4px 96px;
+    position: relative;
+}
+svg.svg-inline--fa.fa-user.fa-w-16 {
+    position: absolute;
+    top: 96px;
+    left: 109px;
+}
+span.giangvien {
+    position: absolute;
+    top: 95px;
+    left: 152px;
+}
+.offline{
+    width: 69px;
+    border: 1px black solid;
+    float: left;
+    margin: -109px 500px;
+    height: 24px;
+    background-color: #d2cb6c;
+    padding-top: 6px;
+    text-align: center;
+    display: inline-block;
+}
+
+.about{
+    float: left;
+    color: red;
+    margin: -36px 0px 0px 400px;
+}
+span.office {
+    position: absolute;
+    top: 94px;
+    left: 684px;
+}
+hr.hr-1 {
+    margin: 25px;
+    width: 482px;
+    height: 2px;
+    background-color: black;
+}
+.adress {
+    display: inline-block;
+    margin: 33px 77px;
+}
+.adress-2{
+    margin: 0px 111px;
+
+}
+svg.svg-inline--fa.fa-map-marker-alt.fa-w-12 {
+    margin: -50px -151px;
+}input.search-2 {
+    position: absolute;
+    top: 15px;
+    left: 638px;
+    width: 196px;
+    border-radius: 12px;
+    position: relative;
+    border-color: black;
+    text-align: center;
+    height: 17px;
+
+}
+svg#search__4 {
+    top: 301px;
+    left: 646px;
+}
+hr.hr-2 {
+    margin: 67px 253px;
+    width: 426px;
+    height: 2px;
+    background-color: black;
+}
+h1.danhsach{
+
+}
+table{
+    width: 100%;
+    height: 175px;
+
+}
+table, th, td{
+    border: 1px solid black;
+    text-align: center;
+}
+/*phân trang*/
+.pagination {
+    padding: 26px;
+    margin-bottom: 20px;
+    margin-left: 399px;
+}
+ 
+.page {
+    display: inline-block;
+    color: #717171;
+    
+    margin-right: 1px;
+    /*border-radius: 3px;
+    border: solid 1px #c0c0c0;*/
+    background: #e9e9e9;
+    font-size:15px;
+    text-decoration: none;
+    
+}
+ 
+.page:hover, .page.gradient:hover {
+    background: #595959;
+    box-shadow: inset 0px 0px 8px rgba(0,0,0, .5), 0px 1px 0px rgba(255,255,255, .8);
+    text-shadow: 0px 0px 3px rgba(0,0,0, .5);
+    color: #f0f0f0;
+}
+ 
+.page.active {
+    border: none;
+    background: #616161;
+    box-shadow: inset 0px 0px 8px rgba(0,0,0, .5), 0px 1px 0px rgba(255,255,255, .8);
+    color: #f0f0f0;
+    text-shadow: 0px 0px 3px rgba(0,0,0, .5);
+}
+
+
+
