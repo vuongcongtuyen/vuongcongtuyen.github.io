@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>travel</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="slide.css">
+	<meta charset="utf-8">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+
+
+	
+</head>
+<body>
+	<div id="wraper">
+		<div class="travel">
+			<img src="travel.jpg" title="travel" url="travel">
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="#">Trang chủ</a></li>
+				<li><a href="#">Các địa điểm</a>
+					<ul>
+						<li><a href="#">Hạ long</a></li>
+						<li><a href="#">Đà lạt</a></li>
+						<li><a href="#">Đà nẵng</a></li>
+						<li><a href="#">Sapa</a></li>
+						<li><a href="#">Đảo phú quốc</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Các bài viết hay</a>
+					<ul>
+						<li><a href="#">Lộ trình Hạ long</a></li>
+						<li><a href="#">Lộ trình Đà lạt</a></li>
+						<li><a href="#">Lộ trình Đà nẵng</a></li>
+						<li><a href="#">Lộ trình Sapa</a></li>
+						<li><a href="#">Lộ trình Đảo phú quốc</a></li>
+					</ul>
+
+				</li>
+				<li><a href="#">Thông tin về tôi</a></li>
+			</ul>
+		</div>
+		<!-- slide show -->
+		<ul class="slides">
+    <input type="radio" name="radio-btn" id="img-1" checked />
+    <li class="slide-container">
+		<div class="slide">
+			<img src="http://farm9.staticflickr.com/8072/8346734966_f9cd7d0941_z.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-6" class="prev">&#x2039;</label>
+			<label for="img-2" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-2" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://farm9.staticflickr.com/8504/8365873811_d32571df3d_z.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-1" class="prev">&#x2039;</label>
+			<label for="img-3" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-3" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://farm9.staticflickr.com/8068/8250438572_d1a5917072_z.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-2" class="prev">&#x2039;</label>
+			<label for="img-4" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-4" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://farm9.staticflickr.com/8061/8237246833_54d8fa37f0_z.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-3" class="prev">&#x2039;</label>
+			<label for="img-5" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-5" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://farm9.staticflickr.com/8055/8098750623_66292a35c0_z.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-4" class="prev">&#x2039;</label>
+			<label for="img-6" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <input type="radio" name="radio-btn" id="img-6" />
+    <li class="slide-container">
+        <div class="slide">
+          <img src="http://farm9.staticflickr.com/8195/8098750703_797e102da2_z.jpg" />
+        </div>
+		<div class="nav">
+			<label for="img-5" class="prev">&#x2039;</label>
+			<label for="img-1" class="next">&#x203a;</label>
+		</div>
+    </li>
+
+    <li class="nav-dots">
+      <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+      <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+      <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+      <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+      <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+      <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+    </li>
+</ul>
+	<div id="content">
+		<span>Những nơi được yêu thích nhất</span>
+
+	</div>
+	<div class="content-2">
+		<img src="content-2-img1.jpeg" title="phú quốc">
+		<img src="content-2-img2.jpeg" title="Sapa">
+		<img src="content-2-img3.jpeg" title="đà lạt">
+		<img src="content-2-img4.jpeg" title="đà nẵng">
+		<span class="phuquoc">Đảo phú quốc</span>
+		<span class="sapa">Sapa</span>
+		<span class="dalat">Đà lạt</span>
+		<span class="danang">Đà nẵng</span>
+	</div>
+	<div id="frame">
+		
+		<div class="my">
+			<span class="produce">Giới thiệu về tôi</span>
+			<img src="avatar.jpg">
+			<h3>vương công tuyền</h3>
+			<p class="p-1">văn khê nghĩa hương quốc oai, <br> đang học tại ĐH cntt&tt thái nguyên <br>
+			nhà có 5 người bà, bố mẹ, 2 anh em,<br> hiện tại đang thực tập tại techmaster </p>
+			<hr>
+			<h4>Mạng xã hội</h4>
+			<img class="youtube" src="youtube.png">
+			<span class="youtube">1tỷ lượt theo dõi</span>
+			<i class="fab fa-facebook-f"></i>
+			<span class="facebook">10tỷ lượt theo dõi</span>
+			<i class="fab fa-twitter"></i>
+			<span class="twitter">10tỷ lượt theo dõi</span>
+			<i class="fab fa-instagram"></i>
+			<span class="instagram">10tỷ lượt theo dõi</span>
+			<input type="text" placeholder="email">
+			<button class="button-1">follow</button>
+		</div>
+		<div id="history">
+			<img src="frame1.JPG">
+			<span class="frame1">07/07/2010 <br> lễ hội hoa đăng</span>
+			<img src="frame2.jpg">
+			<span class="frame2">15/06/2012 <br> thác bản dốc</span>
+			<img src="frame3.jpg">
+			<span class="frame3">21/11/2014 <br> hang phượng hoàng</span>
+			<img src="frame4.jpg">
+			<span class="frame4">10/03/2016 <br> làng quê</span>
+			<button class="button-2">continue</button>
+
+		</div>
+		<div id="bottom">
+			<img class="c-icon" src="c.png">
+			<p class="end">Vương Công Tuyền blog </p>
+			<div class="icon">
+				<img class="youtube-2" src="youtube.png">
+				<img class="facebook-2" src="facebook.png">
+				<img class="twitter-2" src="twitter.png">
+				<img class="instagram-2" src="instagram.png">
+			</div>
+
+		</div>
+
+	</div>
+
+
+</body>
+</html>
