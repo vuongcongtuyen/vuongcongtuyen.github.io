@@ -1,0 +1,288 @@
+#wraper{
+	width: 1200px;
+	margin: 0px auto;
+	border:1px black solid;
+	height: 1900px;
+}
+.travel{
+	width: 100%;
+	height: 250px;
+	border: 1px black solid; 
+
+}
+.travel img{
+	width: 100%;
+	height: 100%;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	margin: 0px 72px;
+	padding: 0px;
+}#menu{
+	width: 100%;
+	margin: 0px auto;
+	float: left;
+	height: 54px;
+	position: absolute;
+    z-index: 100;
+	/*background:#ccc;*/
+}
+#menu > ul > li{
+	float: left;
+	position: relative;
+	
+
+}
+#menu > ul > li > a{
+	
+	line-height: 40px;
+	display: block;
+	padding: 0px 10px 0px 10px;
+	margin: 9px 75px;
+}
+/*#menu > ul > li > a:hover{
+	background: orange;
+
+}*/
+#menu > ul > li ul{
+	background:#ccc;
+	display: none;
+	width: 250px;
+	position: absolute;
+	z-index: 100000;
+
+}
+#menu > ul > li ul a{
+	display: block;
+	line-height: 40px;
+	border-bottom: 1px solid #ddd;
+	text-indent: 15px;
+	
+}
+#menu > ul > li:hover ul{
+	display: block;
+}
+/* bắt đầu theme */
+label.prev {
+    left: -286px;
+}
+
+label.next {
+    left: 690px;
+}
+
+#content {
+    text-align: center;
+    margin: 36px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-family: fantasy;
+}
+.content-2 img {
+    width: 274px;
+    height: 164px;
+    margin: 11px;
+    padding-bottom: 15px;
+}
+span.phuquoc {
+    margin-left: 95px;
+}
+span.sapa {
+    margin-left: 243px;
+}
+span.dalat {
+    margin-left: 265px;
+}
+span.danang {
+    margin-left: 259px;
+}
+.my {
+    height: 712px;
+    width: 26%;
+    border: 1px black solid;
+    float: right;
+    margin: 56px 15px;
+    display: inline-block;
+    position: relative;
+}
+#frame{
+	width: 100%;
+}
+span.produce {
+    display: block;
+    text-align: center;
+    padding-top: 19px;
+    font-size: 19px;
+    font-family: fantasy;
+}
+
+.my img {
+	width: 50%;
+	margin: 12px 79px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: fantasy;
+}
+.p-1{
+	    text-align: center;
+    font-family: sans-serif;
+}
+hr {
+    width: 100px;
+    height: 1px;
+    background: black;
+}
+h4 {
+    font-size: 20px;
+    font-family: fantasy;
+    text-align: center;
+}
+img.youtube {
+    width: 12%;
+    position: absolute;
+    top: 441px;
+    left: -62px;
+}
+svg.svg-inline--fa.fa-facebook-f.fa-w-9 {
+    position: absolute;
+    top: 509px;
+    left: 29px;
+}
+svg.svg-inline--fa.fa-twitter.fa-w-16 {
+    position: absolute;
+    top: 548px;
+    left: 28px;
+}
+svg.svg-inline--fa.fa-instagram.fa-w-14 {
+    position: absolute;
+    top: 585px;
+    left: 28px;
+}
+span.youtube {
+    margin: 91px;
+    position: absolute;
+    top: 377px;
+    left: 18px;
+    font-style: initial;
+}
+span.facebook{
+	    position: absolute;
+    top: 508px;
+    left: 109px;
+    font-style: initial;
+}
+span.twitter {
+    position: absolute;
+    top: 546px;
+    left: 110px;
+    font-style: initial;
+}
+span.instagram {
+    position: absolute;
+    top: 583px;
+    left: 110px;
+    font-style: initial;
+}
+input[type="text"] {
+    /* position: absolute; */
+    margin: 173px 28px;
+    line-height: 20px;
+    width: 159px;
+    text-indent: 10px;
+    border: 1px black solid;
+    border-radius: 3px;
+}
+.button-1 {
+    line-height: 20px;
+    width: 54px;
+}
+#history {
+    /*border: 1px black solid;*/
+    width: 61%;
+    height: 711px;
+    float: left;
+    margin: 58px;
+    position: relative;
+}
+#history img {
+    width: 39%;
+    height: 241px;
+    padding: 13px 36px 94px;
+}
+span.frame1 {
+    position: absolute;
+    top: 277px;
+    left: 126px;
+    font-style: initial;
+    font-family: cursive;
+    font-size: 18px;
+}
+span.frame2 {
+    position: absolute;
+    top: 277px;
+    left: 493px;
+    font-style: initial;
+    font-family: cursive;
+    font-size: 18px;
+}
+span.frame3 {
+    position: absolute;
+    top: 608px;
+    left: 126px;
+    font-style: initial;
+    font-family: cursive;
+    font-size: 18px;
+}
+span.frame4 {
+    position: absolute;
+    top: 611px;
+    left: 493px;
+    font-style: initial;
+    font-family: cursive;
+    font-size: 18px;
+}
+button.button-2 {
+    position: absolute;
+    top: 674px;
+    left: 325px;
+    line-height: 18px;
+}
+#bottom {
+    width: 1199px;
+    border: 1px black solid;
+    height: 65px;
+    /* position: absolute; */
+    /* top: 815px; */
+    float: left;
+    margin-top: 11px;
+    position: relative;
+}
+.icon img {
+    width: 43px;
+    height: 43px;
+    margin-left: 27px;
+}
+.icon {
+    margin-left: 466px;
+    position: absolute;
+    top: 10px;
+}
+img.c-icon {
+    height: 11px;
+    position: absolute;
+    top: 26px;
+    left: 184px;
+}
+p.end {
+    margin: 23px 224px;
+    font-style: initial;
+    font-family: fantasy;
+}
