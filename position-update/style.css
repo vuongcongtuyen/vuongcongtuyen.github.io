@@ -1,0 +1,83 @@
+#wraper{
+  width: 1500px;
+  margin: 0px auto;
+  background-color: black;
+  text-align: center;
+  position: relative;
+}
+.menu {
+    top: -29px;
+    position: absolute;
+    display: inline-block;
+    left: 150px;
+    background-color: black;
+    width: 1192px;
+}
+.menu a {
+    text-decoration: none;
+    display: block;
+    padding-top: 43px;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: -1000px;
+}
+.logo{
+  max-width: 80%;
+  display: inline-block;
+  margin-left: 81px;
+  position: absolute;
+}
+.logo img {
+    position: absolute;
+    top: 0px;
+    left: -499px;
+}
+.container {
+    position: absolute;
+    top: 301px;
+    left: 150px;
+    background-color: black;
+}
+.container img{
+ 
+  margin: 10px;
+  overflow: hidden;
+ 
+}
+img.avatar {
+    position: absolute;
+    top: 163px;
+    left: 193px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.avatar img:hover{
+  color: orange;
+}
+.conten-1 img:hover{
+  opacity: 0.5;
+  transition: 2s;
+}
+.conten-2 img:hover{
+  transform: translate(10px , 10px)
+}
+.conten-3 {
+  position: relative;
+  
+}
+.conten-3 img:hover{
+  transform: scale(1.1)
+}
+.backtotop img {
+    position: fixed;
+    top: 800px;
+    left: 1550px;
+}
+.menu a:hover{
+  color: orange;
+}
+body{
+  overflow-x: hidden;
+}
