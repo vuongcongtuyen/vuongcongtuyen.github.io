@@ -1,0 +1,120 @@
+#wraper{
+	width: 1000px;
+	text-align: center;
+		margin: 0 auto;
+	
+}
+#top{
+	max-width: 100%;
+	text-align: center;
+
+}
+
+.logo img{
+	float: left;
+	margin: 15px;
+    max-width: 25%;
+}
+
+hover a{
+	color: blue;
+}
+a{
+	text-decoration: none;
+	border: 5% orange solid;
+	font-size: 20px;
+	font-style:italic;
+	text-align: center;
+	color: white;
+
+}
+
+#container{
+	width: 100%;
+}
+#container img{
+
+}
+.clear{
+	clear: both;
+}
+.food{
+	float: left;
+	width: 70%;
+}
+.food-1 {
+	float: left;
+}
+.food-2 {
+	float: left;
+}
+.food-1 img{
+	width: 45%;
+	float: left;
+	height: 180px;
+	padding: 0px 10px 0px 10px;
+	border-radius: 20px;
+
+}
+.food-2 img{
+	width: 45%;
+	float: left;
+	height: 180px;
+	padding: 0px 10px 0px 10px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+.quangcao{
+	float: left;
+	width: 30%;
+}
+.quangcao img{
+	float: left;
+    height: 378px;
+    width: 270px;
+    border-radius: 20px;
+}
+h1{
+	color: white;
+	width: 200px;
+	margin: 0 auto;
+}
+h3{
+	color: red;
+}
+h4{
+	color: white;
+}
+p{
+	color: black;
+}
+@keyframes title {
+    0%  {background-color: #EF7126; color: #F9E559;}
+    25%  {background-color: #6F3662; color: #FFFFFF;}
+    50%  {background-color: #9F6164; color: #F8DEBD;}
+    75%  {background-color: #44B3C2; color: #FFFFFF;}
+    100% {background-color: #218C8D; color: #F9E559;}
+}
+
+h1 {
+	animation: title 5s ease infinite;
+}
+#bottom{
+		background-color: #ece8df;;
+}
+#bottom a{
+	color: black;
+}
+.hotline{
+	float: left;
+	width: 30%;
+}
+.Otherproblems {
+	float: left;
+	width: 30%;
+}
+.map{
+	float: left;
+	width: 30%;
+}
+
