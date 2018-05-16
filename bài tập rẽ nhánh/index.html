@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bài tập rẽ nhánh</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// bài 4
+	var user = {
+		username:"ambition",
+		password:"anhtuyen9x",
+		confirm:"anhtuyen9x"
+	}
+	function check(user) {
+		if(user.username != "" &&	user.username.length < 20 || 6<= user.password.length && user.password.length <=32 && user.password===user.confirm){
+			document.write("thong tin hop le");
+
+		}else{
+			document.write("thong tin không hợp lệ")
+		}
+
+	}
+	//check(user);
+	//bài 3
+	var arr=[1,2,3,22,26,6,10,4,45,23,34,12];
+	var newarr=[];
+	for (var i = 0; i <=arr.length - 1; i++) {
+		if(arr[i]%2==0){
+			newarr.push(arr[i]);
+		}
+		}
+		// console.log(newarr.sort(function(a,b){
+		// 	return a-b;
+		// }));
+	//bài 2
+	function giaithua(num){
+		if(num<0){
+				return "không phải số nguyên dương";
+			}
+		if (num<2){
+			return 1;
+			
+			}
+		 else {
+			return  num *giaithua(num-1);
+		}
+	}
+	//console.log (giaithua(-1));
+	// bài 1 
+	function numbers(a,b){
+		if(typeof a === 'number' && typeof b === 'number') {
+			if (a>b) {
+				return "a lớn hơn b";
+			} else {
+				return "b lớn hơn a";
+			}
+		}else {
+			return "không phải number";
+		}
+	}
+	//console.log(numbers (3,4));
+
+
+	
+
+
+
+
+	</script>
+</body>
+</html>
