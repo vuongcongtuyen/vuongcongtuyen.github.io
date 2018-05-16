@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vòng lặp</title>
+</head>
+<body>
+	<script>
+		//bài 1;
+		function factorial(num){
+			if (num<2){
+				return 1;
+			}else {
+				return num * factorial(num -1);
+			}
+		}
+		//factorial(5)
+		//bài 2
+		function daochuoi (str) {
+			return str.split('').reverse().join(''); 
+			}
+		
+		//daochuoi('hello');
+		//bài 3
+		function duplicate(num){
+			var a=num;
+		for (var i = 0; i <=8 ; i++) {
+			a+='-'+num;
+		}
+			return a;
+		}
+		//duplicate(123);
+		//bài 5
+		let arr=[1,2,3,4,5]
+		let doubled = arr.map(num => {
+				//console.log(num*2);
+			});
+		//bài 4
+		var arrSort=["tuyền","anh", "báo","charset"];
+		var newArr=arrSort.sort();
+		var a=[];
+		for (var i = 0; i <= newArr.length - 1; i++) {
+			a+=(i+1)+newArr[i]+" ";
+		}
+		//console.log(a);
+		//bài 6
+		var balance=[1,2,3,4,5,6];
+		var newBalance=[];
+		for (var i = 0; i <= balance.length - 1; i++) {
+			newBalance+=balance[i]%2+" ";
+		}
+		//console.log(newBalance);
+
+
+		
+	</script>
+</body>
+</html>
